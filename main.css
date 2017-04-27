@@ -1,0 +1,20 @@
+.center{
+    text-align: center;
+}
+
+fieldset{
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+h1{
+    font: sans-serif;
+}
+
+a{
+    text-align: right;
+}
+
