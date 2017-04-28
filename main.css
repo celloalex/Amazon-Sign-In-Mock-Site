@@ -88,6 +88,23 @@ footer>p{
     font-size: 10px;
 }
 
+.fieldset{
+    height: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 0px;
+    border-left-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+}
+
+legend{
+    text-align: center;
+    color: grey;
+    font-size: 12px;
+
+}
+
 
 
 
