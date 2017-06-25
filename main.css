@@ -1,109 +1,200 @@
+/*Sets all text to arial font*/
 *{
     font-family: Arial;
 }
 
+/*centers amazon logo at top of page*/
+.center{
+    text-align: center;
+}
+
+/*Sign in h1 tag*/
 h1{
     font-weight: 200;
     font-size: 27px;
 }
 
-.center{
-    text-align: center;
-}
-
+/*Log in field where all information will be put*/
 fieldset{
-    width: 275px;
-    height: 370px;
+    width: 350px;
+    height: 383px;
     margin: auto;
-    border: 1px solid lightgrey;
+    border: 1px solid #ddd;
     border-radius: 5px;
+    padding: 0px;
 }
 
-label{
-    width: 100%;
-    font-weight: 700;
-    font-size: 14px
+/*Sets spacing properties for items inside of field set*/
+.interior-div{
+    width: 296px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+/*Input boxes where user puts in information*/
+.input-boxes{
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #a6a6a6;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font: 13.3px;
+    height: 21px;
+    margin-top: 4px;
+}
+
+/*Labels for the input boxes*/
+label{
+    font-weight: 700;
+    font-size: 13px;
+    padding-left: 2px;
+}
+
+/*div for all elements for password*/
+.div-password{
+    margin-top: 18px
+}
+
+/*div for a tag and password label*/
+.div-password-text{
+    display: inline-block;
+    width: 100%;
+}
+
+/*a tag element attributes*/
 a{
-    display: inline;
+    font-size: 13px;
     text-decoration: none;
-    margin-left: 130px;
     color: #0066c0;
     font-weight: 400;
+    float: right;
 }
 
-input{
-    height: 23px;
-}
-
-input:focus{
-    box-shadow: 0px 0px 12px orange ;
-}
-.button{
-    display: inline-block;
-    width: 100%;
-    height: 32px;
-    margin-top: 20px;
-    background: gold;
-    border-radius: 3px;
-}
-
-.button-center{
-    text-align: center;
-}
-
-.button-bottem{
-    text-align: center;
-    display: inline-block;
-    width: 100%;
-    height: 32px;
-    border-radius: 3px;
-}
-#inline{
-    display: inline;
-    margin: auto;
-}
-
-hr{
-    margin-top: 50px;
-}
-
-footer>ul>li{
-    display: inline-block;
-    color: #0066c0;;
-}
-
-li:hover{
+/*When a tags are hovered over they change color*/
+a:hover{
     text-decoration: underline;
     color: orange;
 }
 
-footer{
-    text-align: center;
-    margin-right: 35px;
-    font-size: 12px;
+/*When user clicks on input elements*/
+input:focus{
+    box-shadow: 0px 0px 11px orange ;
 }
 
-footer>p{
+/*Attributes for buttons*/
+button{
+    width: 100%;
+    height: 32px;
+    margin-top: 20px;
+    border-radius: 3px;
+    text-align: center;
+    border: 1px solid #706f6f;
+}
+
+/*Sign in button styling*/
+.button-sign-in{
+    background: linear-gradient(#ffe7a6, #ffbf0f)
+}
+
+/*Attributes for remember me elements*/
+.div-remember-me{
+    display: inline-block;
+    width: 100%;
+    margin-top: 16px;
+    height: 19px;
+}
+
+/*Checkbox was floating up verticaly aligns*/
+.div-remember-me > input{
+    float: left;
+    vertical-align: middle;
+}
+
+/*Adjusts labels font characteristics*/
+.div-remember-me > label{
+    float: left;
+    font-weight: 200;
+    padding-left: 0px;
+    padding-top: 2px;
+}
+
+/*Adjusts <a> from right to left*/
+.div-remember-me > a{
+    float: left;
+    padding-left: 3px;
+    padding-top: 2px;
+}
+
+/*Strikes a line through new to amazon span tag*/
+.new-to-amazon{
+    width: 100%;
+    text-align: center;
+    height: 10px;
+    border-bottom: 1px solid lightgray;
+    margin-top: 20px
+}
+
+/*span tag properties*/
+.new-to-amazon > span{
+    background-color: white;
+    padding: 0 8px;
+    font-size: 12px;
+    color: darkslategray;
+}
+
+/*Styles the button color*/
+.button-create{
+    background: linear-gradient(#f7f7f7, #e0e0e0)
+}
+
+/*Gets rid of bullet points for list elements*/
+footer>ul>li{
+    display: inline-block;
+}
+
+/*Centers footer middle of page and centers all text*/
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    font-size: 10px;
+    height: 100px;
+}
+
+/*Centers div underneath sign in fieldset*/
+.footer-div{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+    height: 20px
+}
+
+/*Centers text*/
+.footer-copyright{
+    text-align: center;
+}
+
+/*Floats <a> left*/
+.left-float-a{
+    float: left;
     font-size: 10px;
 }
 
+/*Floats <a> right*/
+.right-float-a{
+    float: right;
+    font-size: 10px;
+}
 
+/*Centers middle <a> tag*/
+.middle-float-a{
+    font-size: 10px;
+    float: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Sets middle <a> tag evenly from the ones floating left and right*/
+footer > div > span{
+    display: inline-block;
+    width: 28px;
+}
