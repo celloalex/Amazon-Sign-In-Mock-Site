@@ -78,7 +78,12 @@ a:hover{
 
 /*When user clicks on input elements*/
 input:focus{
+<<<<<<< HEAD
     box-shadow: 0px 0px 11px orange ;
+=======
+    box-shadow: 0px 0px 12px orange ;
+    border-color: orange;
+>>>>>>> origin/master
 }
 
 /*Attributes for buttons*/
@@ -142,10 +147,30 @@ button{
     color: darkslategray;
 }
 
+<<<<<<< HEAD
 /*Styles the button color*/
 .button-create{
     background: linear-gradient(#f7f7f7, #e0e0e0)
 }
+=======
+.fieldset{
+    height: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 0px;
+    border-left-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+}
+
+legend{
+    text-align: center;
+    color: grey;
+    font-size: 12px;
+
+}
+
+>>>>>>> origin/master
 
 /*Gets rid of bullet points for list elements*/
 footer>ul>li{
