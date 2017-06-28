@@ -5,4 +5,4 @@ The premise of this project was using a visual asset and rebuild the site from s
 
 (Even fooled a couple people I showed it to)
 
-This website can be found at https://celloalex.github.io/Amazon-Sign-In-Mock-Site-/.
+This website can be found at https://celloalex.github.io/Amazon-Sign-In-Mock-Site/.
